@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_current_playing"
+            android:icon="@drawable/play"
+            android:title="Current Playing" />
+        <item
+            android:id="@+id/nav_all_track"
+            android:icon="@drawable/ic_menu_list"
+            android:title="All Tracks" />
+        <item
+            android:id="@+id/nav_playlist"
+            android:icon="@drawable/ic_menu_playlist"
+            android:title="Your Playlist" />
+    </group>
+
+
+</menu>

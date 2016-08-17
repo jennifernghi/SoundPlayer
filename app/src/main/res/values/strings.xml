@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SoundPlayer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_playing">Current Playing</string>
+    <string name="name">Name</string>
+    <string name="singer">Singer</string>
+    <string name="time">0:00</string>
+    <string name="custom_list_1">My Custom List 1</string>
+    <string name="custom_list_2">My Custom List 2</string>
+    <string name="hiphop">Hiphop</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="dance">Dance</string>
+    <string name="movie">Movie</string>
+    <string name="movie_soundtrack">Movie SoundTracks</string>
+    <string name="for_your_mood">For Your Moods</string>
+    <string name="popular_playlist">Popular Playlists</string>
+    <string name="workout">Workout</string>
+    <string name="lullaby">Lullaby</string>
+    <string name="summer">Summer</string>
+    <string name="study">Study</string>
+    <string name="moody">Moody</string>
+    <string name="track1">Track 1</string>
+    <string name="track2">Track 2</string>
+    <string name="track3">Track 3</string>
+    <string name="track4">Track 4</string>
+    <string name="track5">Track 5</string>
+    <string name="track6">Track 6</string>
+    <string name="track7">Track 7</string>
+    <string name="track8">Track 8</string>
+    <string name="track9">Track 9</string>
+    <string name="all_tracks">All Tracks</string>
+    <string name="home">Home</string>
+    <string name="playlists">Playlists</string>
+    <string name="unavailable_message">This function is temporarily unavailable.</string>
+    <string name="username">Username</string>
+    <string name="all_tracks_information">This activity shows all available music tracks in the device.\nUsers can open this activity by clicking on All tracks item in Navigation Drawer menu.\nClass: AllTrackActivity\nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources of songs: sdcard.</string>
+    <string name="custom_tracks_list1_information">This activity shows all music tracks in the playlist My Custom List 1 added by user.\nClass: Custom1TrackActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="custom_tracks_list2_information">This activity shows all music tracks in the playlist My Custom List 2 added by user.\nClass: Custom2TrackActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="dance_tracks_information">This activity shows all music tracks in Dance playlist can be added by user.\nClass: DanceTracksActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="hiphop_tracks_information">This activity shows all music tracks in Hiphop playlist can be added by user.\nClass: HiphopTracksActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="movie_tracks_information">This activity shows all music tracks in Movie playlist can be added by user. \nClass: MovieTracksActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="pop_tracks_information">This activity shows all music tracks in Pop playlist can be added by user. \nClass: PopTracksActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="rock_tracks_information">This activity shows all music tracks in Rock playlist can be added by user. \nClass: RockTracksActivity \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from sdcard).\nSources: sdcard.</string>
+    <string name="moody_tracks_information">This activity shows suggested music tracks in Moody suggested playlist, this playlist is default by system. \nClass: MoodyTracksActivity class\nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from url addresses). \nSources: cloud storages: soundclound or onedrive...</string>
+    <string name="study_tracks_information">This activity shows suggested music tracks in Study suggested playlist, this playlist is default by system. \nClass: StudyracksActivity class \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from url addresses). \nSources: cloud storages: soundclound or onedrive...</string>
+    <string name="summer_tracks_information">This activity shows suggested music tracks in Summer suggested playlist, this playlist is default by system. \nClass: SummerTracksActivity class\nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from url addresses). \nSources: cloud storages: soundclound or onedrive...</string>
+    <string name="workout_tracks_information">This activity shows suggested music tracks in Workout suggested playlist, this playlist is default by system. \nClass: WorkoutTracksActivity class\nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from url addresses). \nSources: cloud storages: soundclound or onedrive...</string>
+    <string name="lullaby_tracks_information">This activity shows suggested music tracks in Lullaby suggested playlist, this playlist is default by system.\nClass: LullabyTracksActivity class \nextends abstract class MusicControlBasic\nimplements interface MusicControlInterface (have method to play/pause a song and get songs from url addresses). \nSources: clound storages: soundclound or onedrive...</string>
+    <string name="playlist_activity_information">This activity shows all available music playlists, defaults and customs, can be added or edited by user. \nClass: PlaylistActivity\nextends abstract class MusicControlBasic \nimplements interface MusicControlInterface (have method to get playlists). \nUsers can click on the plus floating button to add a playlist. Users can open this activity by clicking on Playlists item in Navigation Drawer menu.</string>
+    <string name="current_playing_activity_information">This activity shows and plays any song chosen by users. \nClass: CurrentPlayingActivity \nextends abstract class MusicControlBasic \nimplements interface MusicControlInterface (have method to play/pause/fast forward/rewind/skip to next/skip to previous/shuffle/repeat and get a song to play). \nUsers can open this activity by clicking on Current Playing item in Navigation Drawer menu or Current Playing tab in any music track activity.</string>
+    <string name="home_fragment_information">This fragment shows suggested playlist (first HorizontalScrollView) and customable-default playlists (second HorizontalScrollView). \nClass: Home (have methods to get playlists). \nUsers can open this fragment by clicking on Home item in Navigation Drawer menu.</string>
+</resources>
+

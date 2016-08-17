@@ -1,0 +1,195 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="MenuTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="CurrentPlayingTab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/current_playing_tab_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="CurrentPlayingTabText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CurrentPlayingTabButton">
+        <item name="android:layout_width">@dimen/current_playing_tab_play_button</item>
+        <item name="android:layout_height">@dimen/current_playing_tab_play_button</item>
+    </style>
+    <style name="ScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+    <style name="CurrentPlayingActivitySongImageView">
+        <item name="android:layout_width">@dimen/current_playing_activity_imageview</item>
+        <item name="android:layout_height">@dimen/current_playing_activity_imageview</item>
+    </style>
+    <style name="CurrentPlayingActivityName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CurrentPlayingActivitySinger">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CurrentPlayingActivitytime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CurrentPlayingActivitySeekBar">
+        <item name="android:layout_marginLeft">@dimen/default_padding</item>
+        <item name="android:layout_marginRight">@dimen/default_padding</item>
+        <item name="android:max">100</item>
+    </style>
+    <style name="CurrentPlayingActivitySmallButton">
+        <item name="android:layout_width">@dimen/current_playing_activity_small_button</item>
+        <item name="android:layout_height">@dimen/current_playing_activity_small_button</item>
+        <item name="android:layout_marginRight">@dimen/current_playing_activity_button_margin_right</item>
+    </style>
+    <style name="CurrentPlayingActivityLastSmallButton">
+        <item name="android:layout_width">@dimen/current_playing_activity_small_button</item>
+        <item name="android:layout_height">@dimen/current_playing_activity_small_button</item>
+    </style>
+    <style name="CurrentPlayingActivityLargeButton">
+        <item name="android:layout_width">@dimen/current_playing_activity_large_button</item>
+        <item name="android:layout_height">@dimen/current_playing_activity_large_button</item>
+        <item name="android:layout_marginRight">@dimen/current_playing_activity_button_margin_right</item>
+    </style>
+    <style name="CurrentPlayingActivityButtonLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/default_padding</item>
+        <item name="android:paddingLeft">@dimen/current_playing_activity_padding_side</item>
+        <item name="android:paddingRight">@dimen/current_playing_activity_padding_side</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PlayListLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <style name="PlayListImageView">
+        <item name="android:layout_width">@dimen/playlist_activity_imageview</item>
+        <item name="android:layout_height">@dimen/playlist_activity_imageview</item>
+        <item name="android:layout_marginRight">@dimen/default_padding</item>
+    </style>
+    <style name="PlaylistActivityName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/small_sepration_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="FloatingButton">
+        <item name="android:layout_width">@dimen/floating_button</item>
+        <item name="android:layout_height">@dimen/floating_button</item>
+        <item name="android:layout_margin">@dimen/default_padding</item>
+    </style>
+    <style name="HomeCategoryName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/default_padding</item>
+    </style>
+    <style name="HomeImageView">
+        <item name="android:layout_width">@dimen/home_imageview</item>
+        <item name="android:layout_height">@dimen/home_imageview</item>
+        <item name="android:layout_marginBottom">@dimen/default_padding</item>
+    </style>
+    <style name="HomeCategoryText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="HomeHorizontalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/default_padding</item>
+
+    </style>
+    <style name="HomeHorizontalScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/small_padding</item>
+        <item name="android:layout_marginBottom">@dimen/default_padding</item>
+    </style>
+    <style name="HomeCategoryLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/small_padding</item>
+        <item name="android:paddingRight">@dimen/small_padding</item>
+    </style>
+    <style name="SongListLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/default_padding</item>
+    </style>
+    <style name="SongListTrackName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/small_sepration_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SongListTrackSinger">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="ActivityInformation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollViewStyle"
+    android:background="@color/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track1" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track2" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track3" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track4" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track5" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track6" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track7" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/SongListLayout">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track8" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SongListLayout"
+            android:layout_marginBottom="@dimen/song_list_last_layout_margin_bottom">
+
+            <TextView
+                style="@style/SongListTrackName"
+                android:text="@string/track9" />
+
+            <TextView
+                style="@style/SongListTrackSinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

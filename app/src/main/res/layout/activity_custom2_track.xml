@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.android.soundplayer.Custom2TrackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="@dimen/small_padding">
+
+            <TextView
+                style="@style/ActivityInformation"
+                android:text="@string/custom_tracks_list2_information" />
+        </LinearLayout>
+        <!--show layout that contains the list of tracks-->
+        <include layout="@layout/song_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/current_playing_layout"
+        style="@style/CurrentPlayingTab">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CurrentPlayingTabText"
+                android:gravity="center_vertical"
+                android:padding="@dimen/small_padding"
+                android:text="@string/current_playing" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="end|center_vertical"
+            android:paddingRight="@dimen/small_padding">
+
+            <ImageView
+                style="@style/CurrentPlayingTabButton"
+                android:src="@drawable/play" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

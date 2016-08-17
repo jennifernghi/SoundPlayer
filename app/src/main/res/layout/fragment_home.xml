@@ -1,0 +1,176 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:paddingTop="40dp"
+    tools:context="com.example.android.soundplayer.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        style="@style/ScrollViewStyle"
+        android:paddingTop="@dimen/current_playing_activity_paddingtop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="@dimen/small_padding"
+                style="@style/ActivityInformation"
+                android:text="@string/home_fragment_information"
+                android:layout_marginBottom="@dimen/default_padding"/>
+
+            <TextView
+                style="@style/HomeCategoryName"
+                android:text="@string/for_your_mood" />
+
+            <HorizontalScrollView style="@style/HomeHorizontalScrollView">
+
+                <LinearLayout style="@style/HomeHorizontalLinearLayout">
+
+                    <LinearLayout
+                        android:id="@+id/work_out_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/workout" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/workout" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/moody_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/rainy_mood" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/moody" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/study_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/study" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/study" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/summer_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/summer" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/summer" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lullaby_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/lullaby" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/lullaby" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                style="@style/HomeCategoryName"
+                android:text="@string/popular_playlist" />
+
+            <HorizontalScrollView style="@style/HomeHorizontalScrollView">
+
+                <LinearLayout style="@style/HomeHorizontalLinearLayout">
+
+                    <LinearLayout
+                        android:id="@+id/hiphop_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/hiphop" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/hiphop" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/pop_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/pop" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/pop" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rock_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/rock_n_roll" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/rock" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/movie_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/movie" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/movie" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dance_layout"
+                        style="@style/HomeCategoryLayout">
+
+                        <ImageView
+                            style="@style/HomeImageView"
+                            android:src="@drawable/dance" />
+
+                        <TextView
+                            style="@style/HomeCategoryText"
+                            android:text="@string/dance" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

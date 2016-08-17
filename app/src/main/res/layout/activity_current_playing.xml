@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollViewStyle"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.soundplayer.CurrentPlayingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="@dimen/small_padding">
+
+        <TextView
+            style="@style/ActivityInformation"
+            android:text="@string/current_playing_activity_information" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/current_playing_activity_paddingtop">
+
+            <ImageView
+                style="@style/CurrentPlayingActivitySongImageView"
+                android:src="@drawable/music" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_padding"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CurrentPlayingActivityName"
+                android:text="@string/name" />
+
+            <TextView
+                style="@style/CurrentPlayingActivitySinger"
+                android:text="@string/singer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_padding"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/current_playing_activity_padding_side"
+            android:paddingRight="@dimen/current_playing_activity_padding_side">
+
+            <TextView
+                style="@style/CurrentPlayingActivitytime"
+                android:text="@string/time" />
+
+            <SeekBar
+                style="@style/CurrentPlayingActivitySeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progressBackgroundTint="@color/white" />
+
+            <TextView
+                style="@style/CurrentPlayingActivitytime"
+                android:text="@string/time" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/CurrentPlayingActivityButtonLayout">
+
+            <ImageView
+                style="@style/CurrentPlayingActivitySmallButton"
+                android:src="@drawable/shuffle" />
+
+            <ImageView
+                style="@style/CurrentPlayingActivitySmallButton"
+                android:src="@drawable/previous" />
+
+            <ImageView
+                style="@style/CurrentPlayingActivityLargeButton"
+                android:src="@drawable/play_white" />
+
+            <ImageView
+                style="@style/CurrentPlayingActivitySmallButton"
+                android:src="@drawable/next" />
+
+            <ImageView
+                style="@style/CurrentPlayingActivityLastSmallButton"
+                android:src="@drawable/repeat" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
